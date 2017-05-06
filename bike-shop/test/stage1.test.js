@@ -8,8 +8,8 @@ test('bike has a name "Roadster"', () => {
 })
 
 test('bike has a price of 199.99', () => {
-  expect(bike).toHaveProperty('price')
-  expect(bike).toHaveProperty('price', 199.99)
+  expect(bike).toHaveProperty("price")
+  expect(bike).toHaveProperty("price", 199.99)
 })
 
 test('bike has a frame, which is itself an object', () => {
